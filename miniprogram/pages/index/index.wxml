@@ -1,0 +1,54 @@
+<!--index.wxml-->
+  <add-tips text="点击「添加小程序」，下次领红包好找" />
+<view class="container">
+  <view class="block">
+    <navigator target="miniProgram" open-type="navigate" app-id="wxde8ac0a21135c07d"
+      path="/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D37356%26utmMedium%3D781223484D2AC0D47B1BD86387B33442%26activity%3DOwMkGzn6oK"
+      extra-data="" version="release">
+      <view class="gg_title">美团外卖红包，最高56元等你来拿</view>
+      <image class="gg_img" src="../../images/mt01.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="block">
+    <navigator target="miniProgram" open-type="navigate" app-id="wxece3a9a4c82f58c9"
+      path="pages/sharePid/web/index?scene=s.click.ele.me%2Fl7TWTvu"
+      extra-data="" version="release">
+      <view class="gg_title">饿了么外卖红包</view>
+      <image class="gg_img" src="../../images/ele01.jpg" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="block">
+    <navigator target="miniProgram" open-type="navigate" app-id="wxde8ac0a21135c07d"
+      path="/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fcoupon_shop%3FutmSource%3D37356%26utmMedium%3D781223484D2AC0D47B1BD86387B33442%26activity%3D0AlN4OtEIa"
+      extra-data="" version="release">
+      <view class="gg_title">美团官方门店补贴，吃喝玩乐前搜一搜！</view>
+      <image class="gg_img" src="../../images/mt02.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="block">
+    <navigator target="miniProgram" open-type="navigate" app-id="wxde8ac0a21135c07d"
+      path="/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D37356%26utmMedium%3D781223484D2AC0D47B1BD86387B33442%26activity%3DLj7hGmmCBO"
+      extra-data="" version="release">
+      <view class="gg_title">美团商超生鲜百万补贴来袭！</view>
+      <image class="gg_img" src="../../images/mt03.png" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="block">
+    <navigator target="miniProgram" open-type="navigate" app-id="wxece3a9a4c82f58c9"
+      path="pages/sharePid/web/index?scene=s.click.ele.me%2FkyPVTvu"
+      extra-data="" version="release">
+      <view class="gg_title">饿了么商超特价补贴</view>
+      <image class="gg_img" src="../../images/ele02.jpg" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="buttom-text">——更多优惠敬请期待——</view>
+
+  <image bindtap="preview" src="/images/qr.jpg" mode="widthFix"></image>
+</view>
+
+<view class="foot-button" bindtap="onSubscribe">中午吃什么 明天提醒我</view>
